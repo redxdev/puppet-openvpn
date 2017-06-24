@@ -548,7 +548,7 @@ define openvpn::server(
     }
   }
 
-  $pam_module_path = "https://github.com/redxdev/puppet-openvpn"
+  $pam_module_path = "/usr/lib64/openvpn/plugins/openvpn-plugin-auth-pam.so"
   $etc_directory = $::openvpn::params::etc_directory
   $root_group = $::openvpn::params::root_group
 
