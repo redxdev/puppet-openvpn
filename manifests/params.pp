@@ -22,7 +22,7 @@ class openvpn::params {
       $root_group          = 'root'
       $group               = 'nobody'
       $link_openssl_cnf    = true
-      $pam_module_path     = '/usr/lib64/openvpn/plugin/lib/openvpn-auth-pam.so'
+      $pam_module_path     = '/usr/lib64/openvpn/plugins/openvpn-plugin-auth-pam.so'
       $easyrsa_source      = '/usr/share/easy-rsa/2.0'
       $namespecific_rclink = false
 
